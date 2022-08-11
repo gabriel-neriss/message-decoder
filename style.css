@@ -1,0 +1,312 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+
+  font-size: 62.5%;
+  
+  --ff-body:'Inter', sans-serif;
+  --color-fontDark:#0A3871;
+  --color-fontLight: #FFFFFF;
+  --color-fontBold: #343A40;
+  --color-fontp: #495057;
+  --colo-background: #E5E5E5;;
+
+}
+
+body {
+
+  background-color: var(--colo-background);
+  font-family: var(--ff-body);
+  min-width: 37.5rem;
+  max-height: 17.15rem ;
+  
+}
+
+
+header img {
+
+  margin: 2.4rem 1.6rem;
+  
+ 
+
+}
+
+.page {
+
+  max-width: 1440px;
+  max-height: 1024px;
+
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+main{
+
+  margin: 1.6rem;
+
+}
+
+fieldset label {
+
+  display: block;
+  margin-top: 8rem;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 150%;
+  color: var(--color-fontDark);
+
+  
+}
+
+
+form {
+
+  display: flex;
+}
+
+fieldset {
+
+  border: none;
+
+
+}
+
+
+form textarea {
+
+  min-width: 35rem;
+  height: 24rem;
+  margin-top: 2rem;
+  background: none;
+  border: none;
+
+  font-family: var(--ff-body);
+  font-size: 1.5rem;
+  color: #0A3871;
+  padding: 10px;
+  
+  
+}
+
+textarea:hover {
+
+  border: 1px solid var(--color-fontDark);
+
+}
+
+form p {
+
+  margin-top: 1.6rem;
+  font-size: 1.2rem;
+  color: var(--color-fontp)
+  
+
+
+}
+
+form p svg {
+
+  display: block;
+  float: left;
+  margin-right: 8px;
+}
+
+
+
+ /* Buttons */
+
+button {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+  gap: 8px;
+
+  width: 34.3rem;
+  height: 6.7rem;
+  margin-top: 1.6rem;
+  border: 1px solid var(--color-fontDark) ;
+  color: var(--color-fontDark);
+  background: none;
+  border-radius: 2.4rem;
+  
+}
+
+.copy {
+
+  width: 90%;
+  margin: 3rem auto;
+ 
+
+}
+
+.instructionsFrame {
+
+
+  width: 32.7rem;
+  height: auto;
+  padding: 32px;
+  margin: 9.8rem 0.8rem 4rem;
+ 
+ 
+
+  /* White */
+
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+
+  }
+
+.instructionsFrame h2 {
+
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 120%;
+  color: var(--color-fontBold);
+  text-align: center;
+  
+
+}
+
+.instructionsFrame p {
+  
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  text-align: center;
+  color: var(--color-fontBold);
+
+}
+
+.figure {
+
+  display: none;
+  
+}
+
+
+@media screen  and (min-width: 768px) {
+
+  main{
+
+    margin: 4rem;
+  
+  }
+
+  form textarea {
+
+    width: 70rem;
+    font-size: 2.1rem;
+  }
+
+  .buttons {
+
+    display: flex;
+    font-size: 2.1rem;
+    float: left;
+    gap: 3.2rem;
+   
+
+  }
+
+
+  .instructionsFrame {
+
+    width: 68.8rem;
+    height: 35rem;
+     
+  }
+
+  .copy {
+
+    margin: 14rem auto;
+   
+
+  }
+
+
+  
+}
+
+@media screen and (min-width: 1440px ) {
+
+  .page{
+
+      
+  }
+  
+  header img {
+
+    margin-left: 8.4rem;
+
+  }
+
+  main {
+
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+   
+
+  }
+
+  fieldset {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form textarea {
+
+    width: 80rem;
+    height: 50rem;
+
+  }
+
+
+  .instructionsFrame {
+
+    width: 400px;
+    height: 860px;
+
+    position: absolute;
+    left: 1200px;
+    right: 4rem;
+    top: 4rem;
+    bottom: 4rem;
+    margin: 1rem;
+  
+  }
+
+  .figure {
+
+    display: flex;
+    margin: 12rem 1rem 3rem;
+
+  }
+
+  .instructionsFrame p {
+
+    margin-top: 3rem;
+
+  }
+
+  .copy {
+
+    margin-top: 11.8rem;
+  }
+
+}
