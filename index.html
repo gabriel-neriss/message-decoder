@@ -55,13 +55,23 @@
         
       </form>
   
-      <div class="instructionsFrame">
+      <div class="messageOutput">
         
-        <img class="figure" src="image/figura.svg" alt="">
-        <h2>Nenhuma mensagem encontrada</h2>
-        <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
-  
-        <button class="copy hidden">Copiar</button>
+        <div class="messageAlert">
+
+          <img class="figure" src="image/figura.svg" alt="">
+          <h2>Nenhuma mensagem encontrada</h2>
+          <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
+
+        </div>
+
+        <form action="" id="output">
+
+          <textarea name="" id="finalTextOutput" cols="30" rows="10"></textarea>
+
+        </form>
+
+        <button class="copy" form="output">Copiar</button>
 
       </div>
   

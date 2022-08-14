@@ -76,9 +76,9 @@ fieldset {
 }
 
 
-form textarea {
+ textarea {
 
-  min-width: 35rem;
+  width: 34rem;
   height: 24rem;
   margin-top: 2rem;
   background: none;
@@ -115,6 +115,15 @@ form p svg {
   margin-right: 8px;
 }
 
+#finalTextOutput {
+  
+  display: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--color-fontp);
+}
+
 
 
  /* Buttons */
@@ -141,11 +150,12 @@ button {
 
   width: 90%;
   margin: 3rem auto;
+  display: none;
  
 
 }
 
-.instructionsFrame {
+.messageOutput {
 
 
   width: 32.7rem;
@@ -163,7 +173,7 @@ button {
 
   }
 
-.instructionsFrame h2 {
+.messageAlert h2 {
 
 
   font-weight: 700;
@@ -175,7 +185,7 @@ button {
 
 }
 
-.instructionsFrame p {
+.messageAlert p {
   
   margin-top: 1.6rem;
   font-size: 1.6rem;
@@ -190,6 +200,7 @@ button {
   display: none;
   
 }
+
 
 
 @media screen  and (min-width: 768px) {
@@ -216,22 +227,24 @@ button {
 
   }
 
-
-  .instructionsFrame {
+  .messageOutput {
 
     width: 68.8rem;
-    height: 35rem;
-     
+    height: auto;
+   
+  
+  }
+
+  #finalTextOutput {
+
+    height: 250px;
   }
 
   .copy {
 
-    margin: 14rem auto;
-   
-
+    margin: 4rem auto;
+    
   }
-
-
   
 }
 
@@ -273,7 +286,7 @@ button {
   }
 
 
-  .instructionsFrame {
+  .messageOutput {
 
     width: 400px;
     height: 860px;
@@ -296,15 +309,21 @@ button {
 
   }
 
-  .instructionsFrame p {
+  .messageAlert p {
 
     margin-top: 3rem;
 
   }
 
+  #finalTextOutput {
+
+    height: 640px;
+
+  }
+
   .copy {
 
-    margin-top: 11.8rem;
+    margin-top: 4.8rem;
   }
 
 }
@@ -319,7 +338,7 @@ button {
   }
 
 
-  .instructionsFrame {
+  .messageOutput {
 
     left: 1700px;
 
