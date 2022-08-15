@@ -15,6 +15,7 @@ No primeiro desafio da programa <strong>ONE Next Edition</strong>  construí um 
 
 - Lógica de Programação
 - HTML, CSS e JavaScript introdutório
+- Responsividade
 - Unidades de medidas
 - Formulários
 
