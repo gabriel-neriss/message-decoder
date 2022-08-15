@@ -19,7 +19,6 @@ No primeiro desafio da programa <strong>ONE Next Edition</strong>  construí um 
 - HTML, CSS e JavaScript introdutório
 - Unidades de medidas
 - Formulários
-- Git e Github
 
 ## 👀 Feedback
 
