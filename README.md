@@ -5,7 +5,12 @@ No primeiro desafio da programa <strong>ONE Next Edition</strong>  construí um 
 
 ## 🧑‍💻 Demonstração
 
+### 💻 Desktop
+
 <div> <img src="https://user-images.githubusercontent.com/87450820/184703493-e9ace28b-436c-4e5d-a049-1706075d6bb8.png" width="700px" /> </div>
+
+### 📲 Mobile
+
 <div> <img src="https://user-images.githubusercontent.com/87450820/184711017-c26ba874-adcf-43c8-a5a5-958c2ac983f5.png"  height="500px" /> </div>
 <br>
 ↗️ <a href="https://gabriel-neriss.github.io/message-decoder/">Ir até a page web </a> 
