@@ -11,19 +11,25 @@ No primeiro desafio da programa <strong>ONE Next Edition</strong>  construí um 
 ↗️ <a href="https://gabriel-neriss.github.io/message-decoder/">Ir até a page web </a> 
 <br>
 
-## 💻📲 Funcionalidades
+## 💻📲 Funcionalidades:
 
- - Botão para converter palavras para a versão criptografada
- - Botão retornar uma palavra criptografada para a versão original
- - Botão que copia o texto criptografado/descriptografado para a área de transferência
+ - Botão para converter palavras para a versão criptografada;
+ - Botão retornar uma palavra criptografada para a versão original;
+ - Botão que copia o texto criptografado/descriptografado para a área de transferência.
 
-## ✏️ Aprendizados
+## ⚠️ Requisitos do projeto:
 
-- Lógica de Programação
-- HTML, CSS e JavaScript introdutório
-- Responsividade
-- Unidades de medidas
-- Formulários
+- Digitar apenas com letras minúsculas;
+- Não devem ser utilizados letras com acentos;
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
+## ✏️ Aprendizados:
+
+- Lógica de Programação;
+- HTML, CSS e JavaScript introdutório;
+- Responsividade;
+- Unidades de medidas;
+- Formulários.
 
 ## 👀 Feedback
 
