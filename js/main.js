@@ -66,8 +66,8 @@ function encryptMessage () {
   .replaceAll ('I', 'imes')
   .replaceAll ('a', 'ai')
   .replaceAll ('A', 'ai')
-  .replaceAll ('o', 'obter')
-  .replaceAll ('O', 'obter')
+  .replaceAll ('o', 'ober')
+  .replaceAll ('O', 'ober')
   .replaceAll ('u', 'ufat')
   .replaceAll ('U', 'ufat')
   
@@ -83,8 +83,8 @@ function decryptMessage () {
   .replaceAll ('enter', 'e')
   .replaceAll ('imes', 'i')
   .replaceAll ('ai', 'a')
-  .replaceAll ('obter', 'o')
-  .replaceAll ('ufat', 'u')
+  .replaceAll ('ober', 'o')
+  .replaceAll ('ufat', 'u');
 
   finalOutput.value = result
 
@@ -125,17 +125,19 @@ function blockChar () {
   
   btnDecrypt.addEventListener('click', (event) => {
     
-    alertMessage()
-    decryptMessage()
     clickDecrypt(event)
+    decryptMessage()
+    alertMessage()
+    
+    
   
   })
   
   btnCopy.addEventListener('click', (event) => {
-  
-    copyMessage ()
+    
     clickCopy(event)
-  
+    copyMessage ()
+   
   });
 
   // accentuation
